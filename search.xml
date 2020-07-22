@@ -24,6 +24,20 @@
         <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>　　一直很羡慕大佬室友的个人网站，在大佬推荐下决定用hexo框架也搭一个自己的博客，但是网上的教程都比较简略，在综合了好多教程以及自己百度了一些问题后才算是搭了起来。所以决定第一篇博客就写我的搭建过程，用来整理一下思路，还有可能以后有小伙伴想要搭建博客的时候我也可以帮上忙。</p><a id="more"></a><h1 id="前期环境的安装"><a href="#前期环境的安装" class="headerlink" title="前期环境的安装"></a>前期环境的安装</h1><h2 id="githunb创建个人仓库"><a href="#githunb创建个人仓库" class="headerlink" title="githunb创建个人仓库"></a>githunb创建个人仓库</h2><p>　　因为我们的网站是托管在github上的,所以我们需要注册一个github账号,注册好后在左上角的Repositories(仓库)点击new创建新仓库,命名规则为 用户名.github.io 创建好后就可以了。</p><h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><hr>]]></content>
       
       
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 教程 </tag>
+            
+        </tags>
       
     </entry>
     
