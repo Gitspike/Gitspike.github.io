@@ -2729,6 +2729,9 @@ _:future,
     display: none;
   }
 }
+#page-header a {
+  color: #e3fdfd;
+}
 #mobile-sidebar #menu_mask {
   position: fixed;
   z-index: 102;
