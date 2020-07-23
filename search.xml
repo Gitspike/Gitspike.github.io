@@ -5,10 +5,10 @@
     
     <entry>
       <title>hexo github个人博客搭建</title>
-      <link href="/2020/07/12/hexo-github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
-      <url>/2020/07/12/hexo-github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
+      <link href="/2020/07/23/hexo-github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+      <url>/2020/07/23/hexo-github%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</url>
       
-        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>　　一直很羡慕大佬室友的个人网站，在大佬推荐下决定用hexo框架也搭一个自己的博客，但是网上的教程都比较简略，在综合了好多教程以及自己百度了一些问题后才算是搭了起来。所以决定第一篇博客就写我的搭建过程，用来整理一下思路，还有可能以后有小伙伴想要搭建博客的时候我也可以帮上忙。</p><a id="more"></a><h1 id="前期环境的安装"><a href="#前期环境的安装" class="headerlink" title="前期环境的安装"></a>前期环境的安装</h1><h2 id="githunb创建个人仓库"><a href="#githunb创建个人仓库" class="headerlink" title="githunb创建个人仓库"></a>githunb创建个人仓库</h2><p>　　因为我们的网站是托管在github上的,所以我们需要注册一个github账号,注册好后在左上角的Repositories(仓库)点击new创建新仓库,命名规则为 用户名.github.io 创建好后就可以了。</p><h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><hr>]]></content>
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>　　一直很羡慕大佬室友的个人网站，在大佬推荐下决定用hexo框架也搭一个自己的博客，但是网上的教程都比较简略，在综合了好多教程以及自己百度了一些问题后才算是搭了起来。所以决定第一篇博客就写我的搭建过程，用来整理一下思路，还有可能以后有小伙伴想要搭建博客的时候我也可以帮上忙。</p><a id="more"></a><h1 id="前期环境的安装"><a href="#前期环境的安装" class="headerlink" title="前期环境的安装"></a>前期环境的安装</h1><h2 id="githunb创建个人仓库"><a href="#githunb创建个人仓库" class="headerlink" title="githunb创建个人仓库"></a>githunb创建个人仓库</h2><p>　　因为我们的网站是托管在github上的,所以我们需要注册一个github账号,注册好后在左上角的Repositories(仓库)点击new创建新仓库,命名规则为 用户名.github.io 创建好后就可以了。</p><h2 id="安装git并与GitHub绑定"><a href="#安装git并与GitHub绑定" class="headerlink" title="安装git并与GitHub绑定"></a>安装git并与GitHub绑定</h2><p>　　简单地说，git就是一个管理代码的工具，同时也可以进行类似cmd的命令行操作（粗糙的个人理解），我们的网站在本地搭建好以后，需要使用GIT同步到GitHub上。下载链接 <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="noopener">http://rogerdudler.github.io/git-guide/index.zh.html</a> 同时附有简单的配置教程。安装好后需要将git与GitHub绑定，右击打开Git Bash<br><img src= "/img/loading.gif" data-src="https://pic2.zhimg.com/80/v2-8b1cbe253d6e0301bd9a68c6f98a9f52_720w.jpg" alt="Git Bash"><br>依次输入命令：<br>    git config –global user.name “你的GitHub用户名”<br>    git config –global user.email “你的GitHub注册邮箱”<br>    ssh-keygen -t rsa -C “你的GitHub注册邮箱”</p><hr>]]></content>
       
       
       <categories>
